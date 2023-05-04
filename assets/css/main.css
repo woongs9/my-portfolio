@@ -164,7 +164,7 @@ body {
 	-ms-overflow-style: scrollbar;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	html,
 	body {
 		min-width: 320px;
@@ -8654,7 +8654,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 	transform: translateY(-50%);
 	left: 1%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	.navigation {
 		visibility: hidden;
 	}
@@ -8726,7 +8726,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 	opacity: 0.05;
 	font-family: "Playfair Display", Georgia, serif;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	.waterMark {
 		font-size: 60px;
 	}
@@ -8740,7 +8740,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 	opacity: 0.05;
 	font-family: "Playfair Display", Georgia, serif;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	.waterMarkSkill {
 		font-size: 60px;
 	}
