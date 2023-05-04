@@ -8558,7 +8558,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 
 .skills {
 	display: flex;
-	padding-top: 15%;
+	padding-top: 10%;
 }
 .skillLeft {
 	width: 55%;
