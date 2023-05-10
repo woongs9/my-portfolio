@@ -5,8 +5,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 	</head>
 	<body class="is-preload">
 		<div class="navigation">
@@ -42,26 +46,32 @@
 			<section id="about"
 				class="banner onload-image-fade-in onload-content-fade-right color8 style3 fullscreen orient-right content-align-left image-position-center"
 			>
-				<p
-					class="content waterMark"
+				<h2
+					class="waterMark"
 				>
 				About	
-				</p>
+		</h2>
 				<div class="content" style="line-height: 2.5em">	
 					<div>
-						<span style="font-family:serif">열정적인 개발자</span>	
-						<h1><strong style="font-family: cursive">임근웅</strong></h1>
+						<div class="aboutIntro">						
+							<span>열정적인 개발자</span>	
+							<h1>임근웅</h1>
+						</div>
+						<div>
+							안녕하세요! 신입 개발자 임근웅입니다.
+							<br>
+							저는 열심히 배우고 성장하려는 의지와 열정을 가지고 있습니다.
+							<br>
+							새로운 기술과 개발 방법에 대한 열정과 관심으로 열심히 학습하고,
+							<br>
+							경험을 쌓아 나가며, 좋은 개발로 성장하겠습니다.
+							<br>
+						</div>
 
-						안녕하세요! 신입 개발자 임근웅입니다.
-						<br />
-						저는 열심히 배우고 성장하려는 의지와 열정을 가지고 있습니다.
-						<br />
-						새로운 기술과 개발 방법에 대한 열정과 관심으로 열심히 학습하고,
-						<br />
-						경험을 쌓아 나가며, 좋은 개발로 성장하겠습니다.
-						<br />
 					</div>
-					
+					<ul class="actions stacked">
+						<li><a href="about.html" class="button large wide smooth-scroll-middle">More about me</a></li>
+					</ul>
 				</div>
 				<div class="image">
 					<img src="images/banner.jpg" alt="" />
@@ -86,36 +96,72 @@
 							</div>	
 							<div class="skillContents">
 								<div class="lists-01">
-									<div class="001">
+									<div class="li-001">
 										<h3>1 - Backend</h3>
 										<ul>
-											<li>Java</li>
-											<li>Spring Boot</li>
-											<li>JPA</li>
-											<li>Gradle</li>
-											<li>IntelliJ</li>
-											<li>Visual Studio Code</li>
-											<li>Git</li>
+											<li>
+												<span><i class="fa-brands fa-java"></i></span>
+												<span>Java</span>
+											</li>
+											<li>
+												<span><img calss="iconImg" src="images/sprinboot.png"></span>
+												<span>Spring Boot</span>
+											</li>
+											<li>
+												<span><i class="fa-solid fa-database"></i></span>
+												<span>JPA</span>
+											</li>
+											<li>
+												<span><img calss="iconImg" src="images/gradle.png"></span>
+												<span>Gradle</span>
+											</li>
+											<li>
+												<span><img calss="iconImg" src="images/intellij.png"></span>
+												<span>Intelli J</span>
+											</li>
+											<li>
+												<span><img calss="iconImg" src="images/vscode.png"></span>
+												<span>Visual Studio Code</span>
+												</li>
+											<li>
+												<span><i class="fa-brands fa-git"></i></span>
+												<span>Git</span>
+											</li>
 										</ul>
 									</div>
-									<div class="002">
+									<div class="li-002">
 										<h3>3 - Frontend</h3>
 										<ul>
-											<li>HTML</li>
-											<li>CSS</li>
-											<li>JS</li>
+											<li>
+												<span><i class="fa-brands fa-html5"></i></span>
+												<span>HTML</span>
+											</li>
+											<li>									
+												<span><i class="fa-brands fa-css3-alt"></i></span>
+												<span>CSS</span>
+											</li>
+											<li>
+												<span><i class="fa-brands fa-js"></i></span>
+												<span>JS</span>
+											</li>
 										</ul>
 									</div>
 								</div>
 								<div class="lists-02">
-									<div class="001">
+									<div class="li-001">
 										<h3>2 - Devops</h3>
 										<ul>
-											<li>MySQL</li>
-											<li>MariaDB</li>
+											<li>
+												<span><img calss="iconImg" src="images/mysql.png"></span>
+												<span>MySql</span>
+											</li>
+											<li>
+												<span><img calss="iconImg" src="images/mariadb.png"></span>
+												<span>MariaDB</span>
+											</li>
 										</ul>
 									</div>
-									<div class="002">
+									<div class="li-002">
 									</div>
 								</div>
 							</div>
@@ -125,364 +171,99 @@
 					</div>
 				</div>
 			</section>
-			<!-- project 급똥앤젤-->
-			<section
-				class="spotlight style1 color8 orient-right content-align-left image-position-center onscroll-image-fade-in"
-				id="project"
-			>
-			
-				<div class="content" >			
-					<p
-			style=" position: absolute; left: 60%; top:0; font-size: 150px; font-weight: 700; opacity: 0.05; font-family: 'Playfair Display', Georgia, serif;"
-			>
-			Project	
-		</p>
-					<h2>급똥앤젤</h2>
-					<p>
-						GPS를 이용한 위치기반 서비스로서 근거리 공용화장실을 찾아 주는 서비스
-					</p>
-					<ul class="actions stacked">
-						<li><a href="https://github.com/choi-wonseok/dung.git" target="_blank" class="button">Github</a></li>
-					</ul>
-				</div>
-				<div class="image">
-					<img src="images/spotlight01.jpg" alt="" />
-				</div>
-			</section>
-			<!-- 급똥앤젤 사진 -->
-			<div class="gallery style2 medium lightbox onscroll-fade-in">
-				<article>
-					<a href="images/gallery/fulls/01.jpg" class="image">
-						<img src="images/gallery/thumbs/01.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Ipsum Dolor</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
+			<!-- project -->
+			<section id="project" class="wrapper style1 color8 align-center">
+				<p
+					class="content waterMarkSkill	"
+					>
+				Works	
+				</p>
+			<div class="inner">
+					<div class="project">
+							<div class="projectIntro">
+							<span>Portfolio</span>
+							<h2>교내 프로젝트</h2>
+						</div>
 					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/02.jpg" class="image">
-						<img src="images/gallery/thumbs/02.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Feugiat Lorem</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
+					<div class="row">
+						<div class="projectContent">
+							<div class="work-entry animate-box">
+								<a
+									href="project.html#project1"
+									class="work-img"
+									style="background-image: url(images/gallery/fulls/pic01.jpg)"
+								>
+									<div class="display-t">
+										<div class="work-name">
+											<h2>Angels</h2>
+										</div>
+									</div>
+								</a>
+								<div class="col-md-4 col-md-offset-4">
+									<div class="desc">
+										<p>
+											GPS를 이용해 현재 위치에서 가장 가까운 개방화장실을 찾아주는 서비스
+										</p>
+										<p class="read"><a href="project.html#project1">View details</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="projectContent">
+							<div class="work-entry animate-box">
+								<a
+									href="project.html#project2"
+									class="work-img"
+									style="background-image: url(images/work-2.jpg)"
+								>
+									<div class="display-t">
+										<div class="work-name">
+											<h2>Coordinates</h2>
+										</div>
+									</div>
+								</a>
+								<div class="col-md-4 col-md-offset-4">
+									<div class="desc">
+										<p>
+											Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+											live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+											large language ocean.
+										</p>
+										<p class="read"><a href="project.html#project2">View Details</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="projectContent">
+							<div class="work-entry animate-box">
+								<a
+									href="project.html"
+									class="work-img"
+									style="background-image: url(images/work-3.jpg)"
+								>
+									<div class="display-t">
+										<div class="work-name">
+											<h2>Cristall</h2>
+										</div>
+									</div>
+								</a>
+								<div class="col-md-4 col-md-offset-4">
+									<div class="desc">
+										<p>
+											Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+											live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+											large language ocean.
+										</p>
+										<p class="read"><a href="project.html">View details</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/03.jpg" class="image">
-						<img src="images/gallery/thumbs/03.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Magna Amet</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/04.jpg" class="image">
-						<img src="images/gallery/thumbs/04.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Sed Tempus</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/05.jpg" class="image">
-						<img src="images/gallery/thumbs/05.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Ultrices Magna</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/06.jpg" class="image">
-						<img src="images/gallery/thumbs/06.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Sed Tempus</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/07.jpg" class="image">
-						<img src="images/gallery/thumbs/07.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Ipsum Lorem</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/08.jpg" class="image">
-						<img src="images/gallery/thumbs/08.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Magna Risus</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/09.jpg" class="image">
-						<img src="images/gallery/thumbs/09.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Tempus Dolor</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/10.jpg" class="image">
-						<img src="images/gallery/thumbs/10.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Sed Etiam</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/11.jpg" class="image">
-						<img src="images/gallery/thumbs/11.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Magna Lorem</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/12.jpg" class="image">
-						<img src="images/gallery/thumbs/12.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Ipsum Dolor</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
 			</div>
 		</section>
-			<!-- project 돈가스-->
-			<section class="spotlight style1 color8 orient-left content-align-left image-position-center onscroll-image-fade-in">
-				<div class="content">
-					<p
-			style=" position: absolute; left: 25%; top:0; font-size: 150px; font-weight: 700; opacity: 0.05; font-family: 'Playfair Display', Georgia, serif;"
-			>
-			Project	
-		</p>
-					<h2>돈가스</h2>
-					<p>
-						게시판을 이용한 소셜 네트워크 서비스 사이트
-					</p>
-					<ul class="actions stacked">
-						<li><a href="https://github.com/choi-wonseok/pork_cutlet.git" target="_blank" class="button">github</a></li>
-					</ul>
-				</div>
-				<div class="image">
-					<img src="images/spotlight02.jpg" alt="" />
-				</div>
-			</section>
-			<!-- 돈가스 사진 -->
-			<div class="gallery style2 medium lightbox onscroll-fade-in">
-				<article>
-					<a href="images/gallery/fulls/01.jpg" class="image">
-						<img src="images/gallery/thumbs/01.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Ipsum Dolor</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/02.jpg" class="image">
-						<img src="images/gallery/thumbs/02.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Feugiat Lorem</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/03.jpg" class="image">
-						<img src="images/gallery/thumbs/03.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Magna Amet</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/04.jpg" class="image">
-						<img src="images/gallery/thumbs/04.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Sed Tempus</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/05.jpg" class="image">
-						<img src="images/gallery/thumbs/05.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Ultrices Magna</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/06.jpg" class="image">
-						<img src="images/gallery/thumbs/06.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Sed Tempus</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/07.jpg" class="image">
-						<img src="images/gallery/thumbs/07.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Ipsum Lorem</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/08.jpg" class="image">
-						<img src="images/gallery/thumbs/08.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Magna Risus</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/09.jpg" class="image">
-						<img src="images/gallery/thumbs/09.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Tempus Dolor</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/10.jpg" class="image">
-						<img src="images/gallery/thumbs/10.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Sed Etiam</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/11.jpg" class="image">
-						<img src="images/gallery/thumbs/11.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Magna Lorem</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/12.jpg" class="image">
-						<img src="images/gallery/thumbs/12.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Ipsum Dolor</h3>
-						<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-			</div>
-		</section>
-
-			<!-- Five -->
-			<section class="wrapper style1 align-center">
-				<div class="inner">
-					<h2>Massa sed condimentum</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel
-						massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium
-						massa et, hendrerit vestibulum odio lorem ipsum.
-					</p>
-				</div>
-
-				<!-- Gallery -->
-
-			
-
-			<!-- Seven -->
-			<section id="contact" class="wrapper style1 align-center">
+			<!-- Contact -->
+			<footer class="wrapper style1 align-center">
 				<p
 					class="content waterMarkSkill"
 				>
@@ -494,7 +275,7 @@
 					<br>
 					<span>E-mail: yim7212@naver.com</span>
 				</div>
-			</section>
+			</footer>
 
 
 		<!-- Scripts -->
