@@ -317,7 +317,6 @@ slideshowContainer.addEventListener("mouseleave", function () {
 		plusSlides(1);
 	}, 5000);
 });
-
 function showSlides(n) {
 	var i;
 	var slides = document.getElementsByClassName("mySlides");
